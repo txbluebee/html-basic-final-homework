@@ -56,6 +56,10 @@ a {
 }
 /* CSS reset end*/
 
+body {
+	font-family: 微軟正黑體;
+}
+
 .clearfix:after {
 	content: '';
 	display: table;
@@ -101,7 +105,7 @@ a {
 /* Nav Bar*/
 
 .navbar {
-	height: 60px;
+	height: 55px;
 }
 
 .navbar h1 a {
@@ -130,14 +134,14 @@ a {
 	display: block;
 	font-size: 1.2rem;
 	margin-right: 20px;
-	color: #04724D;
+	color: #27e5ac;
 	font-weight: 800;
 	font-family: sans-serif;
 	padding-bottom: 10px;
 }
 
 .navbar ul li a:hover {
-	border-bottom: 3px solid #04724D;
+	border-bottom: 3px solid #27e5ac;
 }
 
 /* Cover */
@@ -166,7 +170,7 @@ a {
 }
 
 .content {
-	margin-top: 50px;
+	margin: 50px 0;
 }
 
 .content .col {
@@ -198,4 +202,46 @@ a {
 	text-align: left;
 	list-style: initial;
 	margin-left: 50px;
+}
+
+/* Class Chart*/
+.class-chart {
+	padding: 0 20px;
+	margin-bottom: 50px;
+}
+
+.class-chart h3 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	font-weight: bolder;
+}
+
+.class-chart table {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.class-chart table tr th,
+.class-chart table tr td {
+	border-top: 1px solid #d2dbd8;
+	border-bottom: 1px solid #d2dbd8;
+	padding: 10px 0;
+	width: 200px;
+	font-size: 0.9em;
+	text-align: left;
+	padding-left: 25px;
+}
+
+.class-chart table tr th {
+	background: #E5E5E5;
+	font-weight: 900;
+}
+
+.class-chart table tr td {
+	font-weight: 700;
+}
+
+.highlight {
+	color: #1ed8a1;
 }
