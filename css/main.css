@@ -150,6 +150,7 @@ body {
 	height: 320px;
 	background: url('../img/cover.jpg') no-repeat center center;
 	position: relative;
+	margin-bottom: 50px;
 }
 
 .cover .cover-caption {
@@ -170,7 +171,7 @@ body {
 }
 
 .content {
-	margin: 50px 0;
+	margin-bottom: 50px;
 }
 
 .content .col {
@@ -207,7 +208,7 @@ body {
 /* Class Chart*/
 .class-chart {
 	padding: 0 20px;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 
 .class-chart h3 {
@@ -249,7 +250,6 @@ body {
 /* Visitor Info*/
 .visitor-info-wrap {
 	background: linear-gradient(#10664c, #34e5b0 );
-	margin-top: 20px;
 	padding: 25px;
 	height: 350px;
 }
