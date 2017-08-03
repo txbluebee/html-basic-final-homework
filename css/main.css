@@ -302,6 +302,10 @@ body {
 	cursor: pointer;
 }
 
+.form-col .btn:hover {
+	background: #4d798e;
+}
+
 /* Footer*/
 
 .footer ul{
